@@ -6,9 +6,9 @@ using namespace std;
 int thirdMax(vector<int> &nums)
 {
 
-    int first = LONG_MIN;
-    int second = LONG_MIN;
-    int third = LONG_MIN;
+    long first = LONG_MIN;
+    long second = LONG_MIN;
+    long third = LONG_MIN;
 
     for (int i = 0; i < nums.size(); i++)
     {
@@ -23,6 +23,7 @@ int thirdMax(vector<int> &nums)
             cout << "first: " << first << " second: " << second << " third " << third << endl;
             continue;
         }
+
         if (nums[i] > second)
         {
             third = second;
