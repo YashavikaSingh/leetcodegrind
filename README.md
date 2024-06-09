@@ -1,1 +1,1 @@
-"# leetcodegrind" 
+# leetcodegrind
